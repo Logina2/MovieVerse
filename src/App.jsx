@@ -3,10 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { createTheme, ThemeProvider, CssBaseline, Box } from "@mui/material";
 import { Provider } from "react-redux";
 import { store } from "./Redux/Store";
-
 import MovieContextProvider from "./Context/MovieContext";
 import UserContextProvider from "./Context/UserContext";
-
 import NavComponent from "./components/NavBar";
 import Footer from "./components/Footer";
 import Home from "./Pages/Home";
