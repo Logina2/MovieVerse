@@ -12,6 +12,17 @@ const MovieContextProvider = ({ children }) => {
             .catch((err) => console.log("Fetch error:", err));
     }, []);
 
+    const fetchMoviesByCategory = (category) => {
+        const url = category === "All"
+            ? "http://localhost:5000/movies"
+            : `http://localhost:5000/movies?category=${category}`;
+
+        fetch(url)
+            .then((res) => res.json())
+            .then((data) => setMovies(data))
+            .catch((err) => console.log("Filtering error:", err));
+    };
+
     const deleteMovie = (id) => {
         fetch(`http://localhost:5000/movies/${id}`, { method: "DELETE" })
             .then((res) => {
@@ -30,7 +41,7 @@ const MovieContextProvider = ({ children }) => {
     };
 
     return (
-        <MovieContext.Provider value={{ movies, deleteMovie, addMovie }}>
+        <MovieContext.Provider value={{ movies, deleteMovie, addMovie, fetchMoviesByCategory }}>
             {children}
         </MovieContext.Provider>
     );

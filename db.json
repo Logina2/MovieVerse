@@ -6,15 +6,8 @@
       "image": "https://image.tmdb.org/t/p/w500//eJGWx219ZcEMVQJhAgMiqo8tYY.jpg",
       "rating": 6.75,
       "year": "2026",
-      "description": "Having thwarted Bowser's previous plot to marry Princess Peach, Mario and Luigi now face a fresh threat in Bowser Jr., who is determined to liberate his father from captivity and restore the family legacy. Alongside companions new and old, the brothers travel across the stars to stop the young heir's crusade."
-    },
-    {
-      "id": "2",
-      "title": "Your Heart Will Be Broken",
-      "image": "https://image.tmdb.org/t/p/w500//7wIBfBl2gejt6xHxNSK0reVIm7E.jpg",
-      "rating": 6.914,
-      "year": "2026",
-      "description": "High school student Polina is saved from bullying at her new school and makes a deal with the main bully Bars: he must pretend to be her boyfriend and protect her, and she must do everything he says. During this game, the couple develops real feelings, but her family and classmates have reasons to separate the lovers."
+      "description": "Having thwarted Bowser's previous plot to marry Princess Peach, Mario and Luigi now face a fresh threat in Bowser Jr., who is determined to liberate his father from captivity and restore the family legacy. Alongside companions new and old, the brothers travel across the stars to stop the young heir's crusade.",
+      "category": "Sci-Fi"
     },
     {
       "id": "4",
@@ -22,7 +15,8 @@
       "image": "https://image.tmdb.org/t/p/w500//aabwWZWx6z1aYP4PX2ADvbDKktd.jpg",
       "rating": 7.37,
       "year": "2025",
-      "description": "In the wake of the devastating war against the RDA and the loss of their eldest son, Jake Sully and Neytiri face a new threat on Pandora: the Ash People, a violent and power-hungry Na'vi tribe led by the ruthless Varang. Jake's family must fight for their survival and the future of Pandora in a conflict that pushes them to their emotional and physical limits."
+      "description": "In the wake of the devastating war against the RDA and the loss of their eldest son, Jake Sully and Neytiri face a new threat on Pandora: the Ash People, a violent and power-hungry Na'vi tribe led by the ruthless Varang. Jake's family must fight for their survival and the future of Pandora in a conflict that pushes them to their emotional and physical limits.",
+      "category": "Action"
     },
     {
       "id": "5",
@@ -30,7 +24,8 @@
       "image": "https://image.tmdb.org/t/p/w500//mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
       "rating": 7.04,
       "year": "2026",
-      "description": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive."
+      "description": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive.",
+      "category": "Drama"
     },
     {
       "id": "6",
@@ -38,7 +33,8 @@
       "image": "https://image.tmdb.org/t/p/w500//yihdXomYb5kTeSivtFndMy5iDmf.jpg",
       "rating": 8.222,
       "year": "2026",
-      "description": "Science teacher Ryland Grace wakes up on a spaceship light years from home with no recollection of who he is or how he got there. As his memory returns, he begins to uncover his mission: solve the riddle of the mysterious substance causing the sun to die out. He must call on his scientific knowledge and unorthodox ideas to save everything on Earth from extinction… but an unexpected friendship means he may not have to do it alone."
+      "description": "Science teacher Ryland Grace wakes up on a spaceship light years from home with no recollection of who he is or how he got there. As his memory returns, he begins to uncover his mission: solve the riddle of the mysterious substance causing the sun to die out. He must call on his scientific knowledge and unorthodox ideas to save everything on Earth from extinction… but an unexpected friendship means he may not have to do it alone.",
+      "category": "Sci-Fi"
     },
     {
       "id": "7",
@@ -46,7 +42,8 @@
       "image": "https://image.tmdb.org/t/p/w500//ygWXPL0RS91JyJPNOfK34eV3bRE.jpg",
       "rating": 6.642,
       "year": "2026",
-      "description": "The brutal murder of the wife of “Toro,” a military hero in the special forces, turns him into a man with a single purpose: revenge. After a stroke of fate makes him a millionaire, Carlos transforms his fortune into an arsenal and, together with his closest soldiers, sets out to hunt down those responsible."
+      "description": "The brutal murder of the wife of “Toro,” a military hero in the special forces, turns him into a man with a single purpose: revenge. After a stroke of fate makes him a millionaire, Carlos transforms his fortune into an arsenal and, together with his closest soldiers, sets out to hunt down those responsible.",
+      "category": "Action"
     },
     {
       "id": "8",
@@ -54,7 +51,8 @@
       "image": "https://image.tmdb.org/t/p/w500//72AoFPC5TY4DfJwXXS9rPwPeReD.jpg",
       "rating": 5.526,
       "year": "2026",
-      "description": "Rebecca Owens, a recent mortuary science graduate takes a night shift job at River Fields Mortuary. Initially, the job seems straightforward — embalming bodies, completing paperwork, and keeping things tidy. But once Rebecca starts working the night shift, things take a dark turn."
+      "description": "Rebecca Owens, a recent mortuary science graduate takes a night shift job at River Fields Mortuary. Initially, the job seems straightforward — embalming bodies, completing paperwork, and keeping things tidy. But once Rebecca starts working the night shift, things take a dark turn.",
+      "category": "Horror"
     },
     {
       "id": "9",
@@ -62,7 +60,8 @@
       "image": "https://image.tmdb.org/t/p/w500//xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
       "rating": 7.58,
       "year": "2026",
-      "description": "Scientists have discovered how to 'hop' human consciousness into lifelike robotic animals, allowing people to communicate with animals as animals. Animal lover Mabel seizes an opportunity to use the technology, uncovering mysteries within the animal world beyond anything she could have imagined."
+      "description": "Scientists have discovered how to 'hop' human consciousness into lifelike robotic animals, allowing people to communicate with animals as animals. Animal lover Mabel seizes an opportunity to use the technology, uncovering mysteries within the animal world beyond anything she could have imagined.",
+      "category": "Sci-Fi"
     },
     {
       "id": "10",
@@ -70,7 +69,8 @@
       "image": "https://image.tmdb.org/t/p/w500//buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
       "rating": 6.79,
       "year": "2026",
-      "description": "A man living in self-imposed exile on a remote island rescues a young girl from a violent storm, setting off a chain of events that forces him out of seclusion to protect her from enemies tied to his past."
+      "description": "A man living in self-imposed exile on a remote island rescues a young girl from a violent storm, setting off a chain of events that forces him out of seclusion to protect her from enemies tied to his past.",
+      "category": "Drama"
     },
     {
       "id": "11",
@@ -78,7 +78,8 @@
       "image": "https://image.tmdb.org/t/p/w500//xwvJ3WzdJ1OCuDoY8LAxBUlQyig.jpg",
       "rating": 5.662,
       "year": "2026",
-      "description": "Two marketing executives go \"balls out\" and pitch a bold full‑coverage condom sponsorship with the World Cup. After their drunken celebration in Brazil sparks a global scandal, they must outrun furious fans, criminals, and power-hungry officials to salvage their careers and make it home alive."
+      "description": "Two marketing executives go \"balls out\" and pitch a bold full‑coverage condom sponsorship with the World Cup. After their drunken celebration in Brazil sparks a global scandal, they must outrun furious fans, criminals, and power-hungry officials to salvage their careers and make it home alive.",
+      "category": "Comedy"
     },
     {
       "id": "12",
@@ -86,7 +87,8 @@
       "image": "https://image.tmdb.org/t/p/w500//adk8weka3O5648g3de4z3y4aE7G.jpg",
       "rating": 5.977,
       "year": "2026",
-      "description": "When a Category 5 hurricane decimates a coastal town, the storm surge brings devastation, chaos, and something far more frightening onto shore: hungry sharks."
+      "description": "When a Category 5 hurricane decimates a coastal town, the storm surge brings devastation, chaos, and something far more frightening onto shore: hungry sharks.",
+      "category": "Action"
     },
     {
       "id": "13",
@@ -94,7 +96,8 @@
       "image": "https://image.tmdb.org/t/p/w500//z2tqCJLsw6uEJ8nJV8BsQXGa3dr.jpg",
       "rating": 6.466,
       "year": "2026",
-      "description": "Having found the safety of the Greenland bunker after the comet Clarke decimated the Earth, the Garrity family must now risk everything to embark on a perilous journey across the wasteland of Europe to find a new home."
+      "description": "Having found the safety of the Greenland bunker after the comet Clarke decimated the Earth, the Garrity family must now risk everything to embark on a perilous journey across the wasteland of Europe to find a new home.",
+      "category": "Action"
     },
     {
       "id": "14",
@@ -102,23 +105,8 @@
       "image": "https://image.tmdb.org/t/p/w500//8L8efNkz8rUmwR7sV0g3vnC9yjn.jpg",
       "rating": 6.909,
       "year": "2026",
-      "description": "The young daughter of a journalist disappears into the desert without a trace—eight years later, the broken family is shocked when she is returned to them, as what should be a joyful reunion turns into a living nightmare."
-    },
-    {
-      "id": "15",
-      "title": "Crime 101",
-      "image": "https://image.tmdb.org/t/p/w500//tVvpFIoteRHNnoZMhdnwIVwJpCA.jpg",
-      "rating": 6.976,
-      "year": "2026",
-      "description": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher."
-    },
-    {
-      "id": "16",
-      "title": "The Super Mario Bros. Movie",
-      "image": "https://image.tmdb.org/t/p/w500//qNBAXBIQlnOThrVvA6mA2B5ggV6.jpg",
-      "rating": 7.587,
-      "year": "2023",
-      "description": "While working underground to fix a water main, Brooklyn plumbers—and brothers—Mario and Luigi are transported down a mysterious pipe and wander into a magical new world. But when the brothers are separated, Mario embarks on an epic quest to find Luigi."
+      "description": "The young daughter of a journalist disappears into the desert without a trace—eight years later, the broken family is shocked when she is returned to them, as what should be a joyful reunion turns into a living nightmare.",
+      "category": "Horror"
     }
   ],
   "users": [],
