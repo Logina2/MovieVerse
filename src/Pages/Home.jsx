@@ -25,7 +25,7 @@ export default function Home() {
     );
 
     return (
-        <Container maxWidth="xl" sx={{ py: 10 }}> {/* تقليل الـ padding ليناسب الترتيب الجديد */}
+        <Container maxWidth="xl" sx={{ py: 10 }}>
             <Box sx={{ mb: 5 }}>
                 <Stack direction="row" spacing={2} sx={{ justifyContent: "center", flexWrap: "wrap", gap: 1 }}>
                     {categories.map((cat) => (
@@ -55,7 +55,6 @@ export default function Home() {
                 ))}
             </Box>
 
-            {/* زر إضافة فيلم يظهر "على جنب" وثابت */}
             <Fab
                 color="primary"
                 aria-label="add"

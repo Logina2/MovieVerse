@@ -26,10 +26,7 @@ const darkTheme = createTheme({
 function MainLayout() {
   return (
     <>
-      {/* الـ Landing Page تظهر أولاً */}
       <Landing />
-
-      {/* قسم الأفلام (Home) يظهر تحتها مباشرة عند السكرول */}
       <Box id="movies-section">
         <Home />
       </Box>
@@ -47,15 +44,10 @@ function App() {
             <BrowserRouter>
               <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
 
-                {/* الناف بار ثابت في الأعلى */}
                 <NavComponent />
-
                 <Box component="main" sx={{ flexGrow: 1 }}>
                   <Routes>
-                    {/* الصفحة الرئيسية تجمع الـ Landing والـ Home */}
                     <Route path="/" element={<MainLayout />} />
-
-                    {/* باقي الصفحات الفرعية تظل كما هي */}
                     <Route path="/movies/:id" element={<MovieDetails />} />
                     <Route path="/join" element={<Register />} />
                     <Route path="/profile" element={<Profile />} />
