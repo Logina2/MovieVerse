@@ -9,7 +9,7 @@ export default function AddMovie({ closeDialog }) {
         image: "",
         rating: "",
         description: "",
-        category: "Action"
+        category: ""
     });
 
     const handleSubmit = (e) => {

@@ -11,8 +11,8 @@ export default function Register() {
         username: "",
         email: "",
         password: "",
-        gender: "female",
-        preferredLanguage: "English",
+        gender: "",
+        preferredLanguage: "",
         interests: { action: false, comedy: false, drama: false, horror: false, sciFi: false }
     });
 

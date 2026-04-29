@@ -8,9 +8,10 @@ import UserContextProvider from "./Context/UserContext";
 import NavComponent from "./components/NavBar";
 import Footer from "./components/Footer";
 import Home from "./Pages/Home";
+import Landing from "./Pages/Landing";
+import MovieDetails from "./Pages/MovieDetails";
 import Register from "./Pages/Register";
 import Profile from "./Pages/Profile";
-import MovieDetails from "./Pages/MovieDetails";
 import Watchlist from "./Pages/Watchlist";
 import NotFound from "./Pages/NotFound";
 
@@ -20,10 +21,21 @@ const darkTheme = createTheme({
     primary: { main: '#e50914' },
     background: { default: '#000000', paper: '#141414' },
   },
-  typography: {
-    fontFamily: "'Roboto', 'Helvetica', 'Arial', sans-serif",
-  },
 });
+
+function MainLayout() {
+  return (
+    <>
+      {/* الـ Landing Page تظهر أولاً */}
+      <Landing />
+
+      {/* قسم الأفلام (Home) يظهر تحتها مباشرة عند السكرول */}
+      <Box id="movies-section">
+        <Home />
+      </Box>
+    </>
+  );
+}
 
 function App() {
   return (
@@ -33,23 +45,21 @@ function App() {
           <ThemeProvider theme={darkTheme}>
             <CssBaseline />
             <BrowserRouter>
-              <Box
-                sx={{
-                  display: 'flex',
-                  flexDirection: 'column',
-                  minHeight: '100vh',
-                  bgcolor: 'background.default'
-                }}
-              >
+              <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+
+                {/* الناف بار ثابت في الأعلى */}
                 <NavComponent />
 
                 <Box component="main" sx={{ flexGrow: 1 }}>
                   <Routes>
-                    <Route path="/" element={<Home />} />
+                    {/* الصفحة الرئيسية تجمع الـ Landing والـ Home */}
+                    <Route path="/" element={<MainLayout />} />
+
+                    {/* باقي الصفحات الفرعية تظل كما هي */}
+                    <Route path="/movies/:id" element={<MovieDetails />} />
                     <Route path="/join" element={<Register />} />
                     <Route path="/profile" element={<Profile />} />
                     <Route path="/watchlist" element={<Watchlist />} />
-                    <Route path="/movies/:id" element={<MovieDetails />} />
                     <Route path="*" element={<NotFound />} />
                   </Routes>
                 </Box>

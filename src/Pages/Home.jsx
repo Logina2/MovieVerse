@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { MovieContext } from "../Context/MovieContext";
 import MovieCard from "../components/MovieCard";
-import { Container, Typography, Box, Button, Stack, Fab, Dialog } from "@mui/material";
+import { Container, Box, Button, Stack, Fab, Dialog } from "@mui/material";
 import { Add as AddIcon } from "@mui/icons-material";
 import { useLocation } from "react-router-dom";
 import AddMovie from "./AddMovie";
@@ -25,7 +25,7 @@ export default function Home() {
     );
 
     return (
-        <Container maxWidth="xl" sx={{ mt: 12, mb: 10 }}>
+        <Container maxWidth="xl" sx={{ py: 10 }}> {/* تقليل الـ padding ليناسب الترتيب الجديد */}
             <Box sx={{ mb: 5 }}>
                 <Stack direction="row" spacing={2} sx={{ justifyContent: "center", flexWrap: "wrap", gap: 1 }}>
                     {categories.map((cat) => (
@@ -36,7 +36,6 @@ export default function Home() {
                             sx={{
                                 borderRadius: "20px",
                                 px: 3,
-                                textTransform: "none",
                                 fontWeight: "bold",
                                 bgcolor: selectedCategory === cat ? "#e50914" : "transparent",
                                 color: "white",
@@ -50,13 +49,19 @@ export default function Home() {
                 </Stack>
             </Box>
 
-            <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 345px))', gap: 3, justifyContent: 'center' }}>
+            <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 3 }}>
                 {filteredMovies.map((m) => (
                     <MovieCard key={m.id} movie={m} />
                 ))}
             </Box>
 
-            <Fab color="error" aria-label="add" sx={{ position: "fixed", bottom: 30, right: 30 }} onClick={() => setOpenAdd(true)}>
+            {/* زر إضافة فيلم يظهر "على جنب" وثابت */}
+            <Fab
+                color="primary"
+                aria-label="add"
+                sx={{ position: "fixed", bottom: 40, right: 40, bgcolor: "#e50914", '&:hover': { bgcolor: '#b20710' } }}
+                onClick={() => setOpenAdd(true)}
+            >
                 <AddIcon />
             </Fab>
 
