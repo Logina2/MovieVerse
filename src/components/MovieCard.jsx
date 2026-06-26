@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import { Card, CardMedia, CardContent, Typography, Button, CardActions, IconButton, Box, Stack } from "@mui/material";
-import { Favorite, FavoriteBorder, Star } from "@mui/icons-material";
+import { Card, CardMedia, CardContent, Typography, Button, CardActions, IconButton, Box, Stack, Chip } from "@mui/material";
+import { Favorite, FavoriteBorder, Star, CalendarMonth } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 import { MovieContext } from "../Context/MovieContext";
 import { useDispatch, useSelector } from "react-redux";
@@ -42,7 +42,15 @@ export default function MovieCard({ movie }) {
 
             <CardContent sx={{ textAlign: 'center', p: 2 }}>
                 <Typography variant="h6" fontWeight="bold" noWrap>{movie.title}</Typography>
-                <Typography variant="body2" sx={{ color: 'gray', mt: 1 }}>{movie.category}</Typography>
+                <Stack direction="row" spacing={1} justifyContent="center" alignItems="center" sx={{ mt: 1 }}>
+                    <Chip icon={<CalendarMonth sx={{ fontSize: 14 }} />} label={movie.releaseYear} size="small"
+                        sx={{ color: 'gray', bgcolor: 'rgba(255,255,255,0.05)', fontSize: '0.75rem' }} />
+                    <Chip label={movie.category} size="small"
+                        sx={{ color: '#e50914', bgcolor: 'rgba(229,9,20,0.1)', fontWeight: 'bold', fontSize: '0.75rem' }} />
+                </Stack>
+                <Typography variant="body2" sx={{ color: 'gray', mt: 1.5, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden', textAlign: 'center' }}>
+                    {movie.description}
+                </Typography>
             </CardContent>
 
             <CardActions sx={{ justifyContent: 'center', pb: 3, px: 2, gap: 1 }}>
